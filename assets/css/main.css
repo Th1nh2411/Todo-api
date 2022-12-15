@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}
+.card-body{
+    margin: auto;
+}
+.card-title{
+    font-size: 2rem;
+}
+.todo-list {
+    list-style: none;
+}
+.todo-item{
+    width: 500px;
+    background-color: red;
+    margin: 10px;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.todo-detail{
+    flex: 1;
+}
+.todo-item-done{
+    background-color: green;
+}
+.todo-button{
+    display: flex;
+    flex-direction: column;
+}
+.todo-add{
+    margin: auto;
+    width: 500px;
+}
+.todo-add__name {
+    display: flex;
+    margin: 10px 0;
+}
+.todo-add__name label{
+    width: 100px;
+}
+.todo-add__name input{
+    flex: 1;
+}
+.todo-add__des{
+    display: flex;
+}
+.todo-add__des input {
+    flex: 1;
+}
+.todo-add__des label {
+    width: 100px;
+}
